@@ -1,0 +1,19 @@
+// Abstracts
+@import '../styles/abstracts/breakpoints';
+@import '../styles/abstracts/variables';
+
+// Animations
+@import '../styles/animations/animations';
+
+// components
+@import '../styles/components/buttons';
+
+// Layout 
+@import '../styles/layout/navbar';
+@import '../styles/layout/footer';
+
+// Pages
+@import '../styles/pages/home';
+@import '../styles/pages/services';
+@import '../styles/pages/portfolio';
+@import '../styles/pages/contact.scss'

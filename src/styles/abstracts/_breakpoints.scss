@@ -1,0 +1,27 @@
+// Large Desktop Screens
+$breakpoint-large: 1440px;
+
+// Standard Desktops
+$breakpoint-standard: 1024px;
+
+// Tablets
+$breakpoint-tablet-portrait: 768px;
+$breakpoint-tablet-landscape: 1023px;
+
+@mixin large-desktop {
+    @media (min-width: $breakpoint-large) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $breakpoint-standard) and (max-width: $breakpoint-large) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $breakpoint-tablet-portrait) and (max-width: $breakpoint-tablet-landscape) {
+        @content;
+    }
+}

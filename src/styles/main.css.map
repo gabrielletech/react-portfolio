@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,gHAAI",
+    "sources": [
+        "main.scss",
+        "abstracts/_breakpoints.scss",
+        "abstracts/_variables.scss",
+        "animations/_animations.scss",
+        "components/_buttons.scss",
+        "layout/_navbar.scss",
+        "layout/_footer.scss",
+        "pages/_home.scss",
+        "pages/_services.scss",
+        "pages/_portfolio.scss",
+        "pages/contact.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
