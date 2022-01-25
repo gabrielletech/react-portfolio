@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,gHAAI;ADGZ,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "Portfolio.module.scss",
+        "../../styles/abstracts/_variables.scss",
+        "../../styles/abstracts/_breakpoints.scss"
+    ],
+    "names": [],
+    "file": "Portfolio.module.css"
+}

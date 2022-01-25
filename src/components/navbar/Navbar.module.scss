@@ -10,6 +10,10 @@
     transition: 0.3s ease all;
 }
 
+.header_logo {
+    margin: 0em 2em;
+}
+
 .logo {
     height: 130px;
     width: 130px;
@@ -49,9 +53,9 @@
         transform: none;
         flex-direction: row;
         background: transparent;
-        width: auto;
-        height: 100%;
         position: static;
+        height: 100%;
+        margin-left: 700px;
     }
 
     ul {

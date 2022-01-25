@@ -1,5 +1,15 @@
-import React from 'react';
+import React from 'react'
+import Navbar from '../../components/navbar/Navbar'
+import Footer from '../../components/footer/Footer'
 
 export default function Portfolio() {
-  return <div></div>;
+  return (
+    <>
+      <section>
+        <Navbar />
+      </section>
+
+      <Footer />
+    </>
+  )
 }

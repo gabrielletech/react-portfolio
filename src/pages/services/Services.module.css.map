@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,gHAAI;AFGZ,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "Services.module.scss",
+        "../../styles/abstracts/_breakpoints.scss",
+        "../../styles/abstracts/_variables.scss"
+    ],
+    "names": [],
+    "file": "Services.module.css"
+}
