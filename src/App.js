@@ -1,8 +1,8 @@
 import {BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import Services from './pages/Services'
-import Portfolio from './pages/Portfolio'
-import Contact from './pages/Contact'
+import Home from './pages/home/Home'
+import Services from './pages/services/Services'
+import Portfolio from './pages/portfolio/Portfolio'
+import Contact from './pages/contact/Contact'
 
 function App() {
   return (
