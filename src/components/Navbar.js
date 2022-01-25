@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import { BiMenuAltRight } from 'react-icons/bi'
 import { MdClose } from 'react-icons/md'
 
+import classes from './Navbar.module.scss'
+
 const Navbar = () => {
    
   const [menuOpen, setMenuOpen] = useState(false);
@@ -41,19 +43,19 @@ const Navbar = () => {
             <Link to="/" className='header-logo'>
                 <img src={Logo} alt='logo' className='logo' />
             </Link> 
-            <nav className='header-nav'>
+            <nav className={`${header_nav} &`}>
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" className='link-item'>Home</Link>
                     </li>
                     <li>
-                        <Link to="/services">Services</Link>
+                        <Link to="/services" className='link-item'>Services</Link>
                     </li>
                     <li>
-                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/portfolio" className='link-item'>Portfolio</Link>
                     </li>
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact" className='link-item'>Contact</Link>
                     </li>
                 </ul>
             </nav>  
