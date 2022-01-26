@@ -9,8 +9,30 @@ section {
   background: #FFF7F5;
 }
 
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .nav {
+    width: 100%;
+  }
+}
+
 .hero_text {
   padding: 3em 2em;
+  background: #FFF7F5;
+  margin-top: 20px;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .hero_text {
+    height: 70%;
+    width: 50%;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 10em;
+    padding: 10em 8em;
+  }
 }
 
 .hero_title {
@@ -22,12 +44,104 @@ section {
   font-family: "Julius Sans One", sans-serif;
 }
 
+.hero_side {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .hero_side {
+    display: block;
+    height: 70%;
+    width: 50%;
+    background: #fff;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 9em;
+  }
+}
+
+.hero_img {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .hero_img {
+    display: block;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: auto;
+  }
+}
+
+.hero_btn {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .hero_btn {
+    display: block;
+    color: #fff;
+    font-weight: semi-bold;
+    background: #000;
+    padding: 1em;
+    border: none;
+    border-radius: 12px;
+    margin-top: 2em;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: semi-bold;
+}
+
+.side_text {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .side_text {
+    display: block;
+    font-family: "Raleway", sans-serif;
+    padding: 0em 4em;
+  }
+}
+
 .services {
-  padding: 3em 4em;
+  padding: 2em 3.5em;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .services {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .services {
+    display: none;
+  }
 }
 
 .service {
   margin: 15px;
+}
+
+.service:hover {
+  background: #FFF7F5;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 12px;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .service_heading {
@@ -63,6 +177,12 @@ section {
   background: rgba(126, 126, 126, 0.46);
 }
 
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .cta_section {
+    display: none;
+  }
+}
+
 .cta_heading {
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -81,5 +201,6 @@ section {
   margin-top: 2em;
   -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 /*# sourceMappingURL=Home.module.css.map */
