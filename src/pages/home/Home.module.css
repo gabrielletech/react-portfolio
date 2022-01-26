@@ -21,4 +21,65 @@ section {
 .sub_title {
   font-family: "Julius Sans One", sans-serif;
 }
+
+.services {
+  padding: 3em 4em;
+}
+
+.service {
+  margin: 15px;
+}
+
+.service_heading {
+  display: inline-block;
+  margin-left: 2px;
+  font-weight: normal;
+}
+
+.service p {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.service p span {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot_i {
+  background: rgba(191, 163, 152, 0.46);
+}
+
+.dot_ii {
+  background: rgba(238, 187, 184, 0.46);
+}
+
+.dot_iii {
+  background: rgba(222, 163, 160, 0.46);
+}
+
+.dot_iv {
+  background: rgba(126, 126, 126, 0.46);
+}
+
+.cta_heading {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+
+.cta_btn {
+  display: block;
+  margin: auto;
+  color: #fff;
+  font-weight: semi-bold;
+  background: #000;
+  padding: 1em;
+  border: none;
+  border-radius: 12px;
+  margin-top: 2em;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
 /*# sourceMappingURL=Home.module.css.map */

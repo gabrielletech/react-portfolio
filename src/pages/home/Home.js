@@ -16,16 +16,27 @@ export default function Home() {
               <h4 className={classes.sub_title}>Freelance Web Designer & Front-End Developer</h4>
             </div>
         </div>
-      </section>
-      
-      <div className={classes.services}>
-        <Dropdown.Menu >
-        <Dropdown.Header>Dropdown header</Dropdown.Header>
-        <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-        <Dropdown.Item eventKey="3">Something else here</Dropdown.Item>
-      </Dropdown.Menu>
+
+        <div className={classes.services}>
+          <div className={classes.service}>
+            <p> <span className={classes.dot_i}></span><h3 className={classes.service_heading}>Web Development</h3></p>
+          </div>
+           <div className={classes.service}>
+            <p><span className={classes.dot_ii}></span><h3 className={classes.service_heading}>Custom Web Development</h3></p>
+          </div>
+           <div className={classes.service}>
+            <p><span className={classes.dot_iii}></span><h3 className={classes.service_heading}>E-Commerce Solutions</h3></p>
+          </div>
+           <div className={classes.service}>
+            <p><span className={classes.dot_iv}></span><h3 className={classes.service_heading}>SEO</h3></p>
+          </div>
       </div>
 
+      <div className={classes.cta_section}>
+        <h3 className={classes.cta_heading}>Let me help you build an online presence</h3>
+        <button className={classes.cta_btn}>Talk to me</button>
+      </div>
+      </section>
       <Footer />
       </>
   )
