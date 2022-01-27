@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
+import Hero from '../../images/services-hero.jpg'
 
 import classes from './Services.module.scss'
 
@@ -9,11 +10,16 @@ export default function Services() {
     <>
       <section>
         <Navbar />
-        <div className={classes.services}>
-            <h3 className={classes.services_heading}>Here's What I Can Do For You:</h3>
+        <div className={classes.services_hero}>
+          <div className={classes.hero_left}>
+            <img src={Hero} alt="Services Hero Img" className={classes.services_img} />
+          </div>
         </div>
 
         <div className={classes.services_container}>
+          <div className={classes.services}>
+              <h3 className={classes.services_heading}>Here's What I Can Do For You:</h3>
+          </div>
           <ul>
             <li className={classes.box}>
                 <div className={classes.dot}>

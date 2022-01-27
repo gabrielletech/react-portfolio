@@ -1,7 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@400;500;600;700&display=swap");
 section {
-  background: #FFF7F5;
   width: 100%;
+}
+
+.services_hero {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .services_hero {
+    display: block;
+  }
+}
+
+.hero_left {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .hero_left {
+    display: block;
+    width: 50%;
+    height: auto;
+    background: #fff;
+    left: 0;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 9em;
+  }
+}
+
+.services_img {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: auto;
 }
 
 .services {
@@ -14,6 +48,10 @@ section {
   text-align: center;
 }
 
+.services_container {
+  padding: 4em 0em;
+}
+
 @media (min-width: 1024px) and (max-width: 1440px) {
   .services_container ul {
     display: -ms-grid;
@@ -21,6 +59,7 @@ section {
     -ms-grid-columns: (auto)[3];
         grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
+    padding: 1em;
   }
 }
 
