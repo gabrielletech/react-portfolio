@@ -3,10 +3,11 @@
 
 section {
     width: 100%;
-}
+    background: $princess-plush;
 
-.services {
-   
+    @include desktop {
+        background: $peace;
+    }
 }
 
 .services_hero {
@@ -25,13 +26,31 @@ section {
         width: 50%;
         height: auto;
         background: $peace;
-        
         left: 0;
         z-index: 1;
         top: 0;
         overflow-x: hidden;
-        margin-top: 9em;
+        margin-top: 7em;
    }
+}
+
+.hero_right {
+    display: none;
+
+    @include desktop {
+        display: block;
+        width: 50%;
+        height: auto;
+        background: $peace;
+        right: 0;
+        float: right;
+        top: 0;
+        overflow-x: hidden;
+        text-align: justify;
+        font-family: $main;
+        margin-top: -18em;
+        padding: 5em;
+    }
 }
 
 .services_img {
@@ -39,6 +58,7 @@ section {
     height: 300px;
     display: block;
     margin: auto;
+    border-radius: 12px;
 }
 
 .services {
@@ -51,7 +71,18 @@ section {
     text-align: center;
 }
 .services_container {
-    padding: 4em 0em;
+    margin-top: 1em;
+    padding: 1em 1em;
+    background: $princess-plush;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    @include desktop {
+        height: 70vh;
+        margin-top: 5em;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
 }
 
 .services_container ul {
@@ -65,11 +96,17 @@ section {
 
 .services_container ul li {
   background: #fff;
+  height: auto;
   padding: 1em;
   border-radius: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   list-style: none;
+
+  @include desktop {
+      margin-bottom: 2em;
+      padding: 2.5em;
+  }
 }
 
 .dot {
@@ -114,8 +151,13 @@ section {
 }
 
 .services_cta {
-    padding: 3em;
+    padding: 4em;
     background: $peace;
+    height: 50vh;
+
+    @include desktop {
+        padding: 6em;
+    }
 }
 
 .services_cta_heading {

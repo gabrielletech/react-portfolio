@@ -14,6 +14,12 @@ export default function Services() {
           <div className={classes.hero_left}>
             <img src={Hero} alt="Services Hero Img" className={classes.services_img} />
           </div>
+          <div className={classes.hero_right}>
+            <p>Nowadays it sure feels like the internet is on steroids with everything 
+            going digital and business processes evolving. That’s your sign to go digital, 
+            no matter what stage your business is in, you deserve an online presence! Once 
+            your business is online, the possibilities are endless...</p>
+          </div>
         </div>
 
         <div className={classes.services_container}>
@@ -49,12 +55,12 @@ export default function Services() {
         </div> 
 
         <div className={classes.services_cta}>
-        <h3 className={classes.services_cta_heading}>
-          Let’s grab a virtual coffee and discuss your next digital product
-        </h3>
-        <button className={classes.services_cta_btn}>Book A Consultation</button>
-        <p className={classes.services_free}>It's Free!</p>
-      </div>
+          <h3 className={classes.services_cta_heading}>
+            Let’s grab a virtual coffee and discuss your next digital product
+          </h3>
+          <button className={classes.services_cta_btn}>Book A Consultation</button>
+          <p className={classes.services_free}>It's Free!</p>
+        </div>
       </section>
 
       <Footer />
