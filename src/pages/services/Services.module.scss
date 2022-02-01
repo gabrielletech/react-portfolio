@@ -74,14 +74,16 @@ section {
     margin-top: 1em;
     padding: 1em 1em;
     background: $princess-plush;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
 
     @include desktop {
         height: 70vh;
         margin-top: 5em;
-        border-top-left-radius: 40px;
-        border-top-right-radius: 40px;
+        border-top-left-radius: 15%;
+        border-top-right-radius: 15%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
     }
 }
 
@@ -143,11 +145,12 @@ section {
     text-align: center;
     font-family: $title;
     padding: 1em 0em;
+    font-size: 20px;
 }
 
 .services_desc {
     font-family: $main;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .services_cta {

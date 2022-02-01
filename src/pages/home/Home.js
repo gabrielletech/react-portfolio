@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import HomeImg from '../../images/home-mockup.png'
-import { Link } from 'react-router-dom'
 
 import classes from './Home.module.scss'
 
@@ -19,9 +18,9 @@ export default function Home() {
               <h1 className={classes.hero_title}>Gabrielle Ndoro</h1>
               <h4 className={classes.sub_title}>Freelance Web Designer & Front-End Developer</h4>
               <button className={classes.hero_btn}>
-              <Link to='/contact' className={classes.link}>
-                   Get In Touch
-              </Link>
+              <a href="https://calendly.com/gabriellen/web-design-consultation" className={classes.link}>
+                   Book a Consultation
+              </a>
              </button>
             </div>
             <div className={classes.hero_side}>

@@ -81,16 +81,18 @@ section {
   margin-top: 1em;
   padding: 1em 1em;
   background: #FFF7F5;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .services_container {
     height: 70vh;
     margin-top: 5em;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
   }
 }
 
@@ -158,11 +160,12 @@ section {
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
   padding: 1em 0em;
+  font-size: 20px;
 }
 
 .services_desc {
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .services_cta {

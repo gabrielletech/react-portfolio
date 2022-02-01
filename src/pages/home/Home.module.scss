@@ -28,7 +28,7 @@ section {
   margin-top: 20px;
 
   @include desktop {
-    height: 70%;
+    height: 60%;
     width: 50%;
     position: fixed;
     left: 0;
@@ -37,6 +37,8 @@ section {
     overflow-x: hidden;
     margin-top: 10em;
     padding: 10em 8em;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 20%;
   }
 }
 
@@ -63,9 +65,10 @@ section {
       top: 0;
       overflow-x: hidden;
       margin-top: 9em;
-
   }
 }
+
+
 
 .hero_img {
     display: none;
