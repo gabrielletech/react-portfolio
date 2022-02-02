@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@400;500;600;700&display=swap");
-section {
-  height: 100vh;
+.main {
+  height: 100%;
   width: 100%;
   background: #fff;
 }
@@ -16,17 +16,23 @@ section {
 }
 
 .projects_container {
-  padding: 1em 2em;
+  padding: 1em 1.5em;
   height: 100%;
   margin-bottom: 2em;
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-  .projects_container ul {
+  .projects_container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[4];
-        grid-template-columns: repeat(4, auto);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
   }
 }
 
@@ -42,5 +48,42 @@ section {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.testimonials {
+  height: 100vh;
+  width: 100%;
+  background: #000;
+  margin-bottom: 4em;
+}
+
+.quote {
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.testimonial_text {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  height: 50vh;
+  padding: 3em;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .testimonial_text {
+    padding: 6em;
+  }
+}
+
+.testimonial_name {
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  font-style: italic;
 }
 /*# sourceMappingURL=Portfolio.module.css.map */

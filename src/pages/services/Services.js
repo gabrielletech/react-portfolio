@@ -58,7 +58,11 @@ export default function Services() {
           <h3 className={classes.services_cta_heading}>
             Let’s grab a virtual coffee and discuss your next digital product
           </h3>
-          <button className={classes.services_cta_btn}>Book A Consultation</button>
+          <button className={classes.services_cta_btn}>
+            <a href="https://calendly.com/gabriellen/web-design-consultation">
+              Book A Consultation
+            </a>
+          </button>
           <p className={classes.services_free}>It's Free!</p>
         </div>
       </section>
