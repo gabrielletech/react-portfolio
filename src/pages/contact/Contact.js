@@ -20,10 +20,17 @@ export default function Contact() {
             </p>
             <p>
               For general questions, inquiries, or technical issues with this website, drop me an email at
-
-              <a href='#'>gabriellen.tech</a>
+              <a href='/'> gabriellen.tech</a>
             </p>
-            <p>Or quickly write me a message using the form. Don’t be shy to reach out to me, besides, my consultations are completely free!</p>
+            <p>Or quickly write me a message using the form. Don’t hesitate to reach out to me, besides, my consultations are completely free!</p>
+          </div>
+
+          <div className={classes.contact_form} id="contact-form">
+            <input type="text" placeholder="Your Name" className={classes.input_name}/>
+            <input type="email" placeholder="Your email address" className={classes.input_email}/>
+            <textarea placeholder="Your message" className={classes.input_message}></textarea>
+            <button className={classes.submit_btn}>Send Message</button>
+            <span className={classes.thank_you_msg}>Thank you for your message, we will be in touch in no time!</span>
           </div>
         </div>
       </section>

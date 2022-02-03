@@ -18,6 +18,10 @@ section {
 
 .contact_text {
     padding: 2em;
+
+    @include desktop {
+        padding: 5em;
+    }
 }
 
 .location {
@@ -32,4 +36,58 @@ p {
     font-family: $main;
     font-size: 14px;
     padding: 1em;
+}
+
+.contact_form {
+    display: block;
+    margin: auto;
+    width: 100%;
+    background: #000;
+    border-radius: 20px;
+    padding: 1em;
+    margin-bottom: 8em;
+
+    @include desktop {
+        width: 500px;
+        margin: 5em;
+        margin-bottom: 0em;
+    }
+}
+
+.input_name {
+    width: 100%;
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1em;
+}
+
+.input_email {
+    width: 100%;
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1em;
+}
+
+.input_message {
+    width: 100%;
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1em;
+}
+
+.submit_btn {
+    padding: 1em;
+    border: none;
+    border-radius: 12px;
+    color: #6d6d6d;
+    background: $princess-plush;
+    cursor: pointer;
+
+    @include desktop {
+        display: block;
+        margin: auto;
+    }
 }

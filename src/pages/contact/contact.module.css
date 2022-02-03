@@ -22,6 +22,12 @@ section {
   padding: 2em;
 }
 
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .contact_text {
+    padding: 5em;
+  }
+}
+
 .location {
   display: inline-block;
 }
@@ -34,5 +40,63 @@ p {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   padding: 1em;
+}
+
+.contact_form {
+  display: block;
+  margin: auto;
+  width: 100%;
+  background: #000;
+  border-radius: 20px;
+  padding: 1em;
+  margin-bottom: 8em;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .contact_form {
+    width: 500px;
+    margin: 5em;
+    margin-bottom: 0em;
+  }
+}
+
+.input_name {
+  width: 100%;
+  padding: 1em;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 1em;
+}
+
+.input_email {
+  width: 100%;
+  padding: 1em;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 1em;
+}
+
+.input_message {
+  width: 100%;
+  padding: 1em;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 1em;
+}
+
+.submit_btn {
+  padding: 1em;
+  border: none;
+  border-radius: 12px;
+  color: #6d6d6d;
+  background: #FFF7F5;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .submit_btn {
+    display: block;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=Contact.module.css.map */
