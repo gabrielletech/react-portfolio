@@ -44,8 +44,7 @@ p {
 
 .contact_form {
   display: block;
-  margin: auto;
-  width: 100%;
+  margin: 2em;
   background: #000;
   border-radius: 20px;
   padding: 1em;
@@ -91,12 +90,21 @@ p {
   color: #6d6d6d;
   background: #FFF7F5;
   cursor: pointer;
+  margin-bottom: 2em;
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .submit_btn {
     display: block;
     margin: auto;
+    margin-bottom: 1.5em;
   }
+}
+
+span {
+  text-align: center;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
 }
 /*# sourceMappingURL=Contact.module.css.map */

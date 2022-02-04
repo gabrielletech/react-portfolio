@@ -2,6 +2,7 @@ import React, { useState} from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import Alert from 'react-bootstrap/Alert'
+import emailjs from 'emailjs-com'
 
 import classes from './Contact.module.scss'
 
@@ -13,6 +14,19 @@ export default function Contact() {
 
   const submit = () => {
     if (name && email && message) {
+      const serviceId = 'service_id';
+            const templateId = 'template_id';
+            const userId = 'user_id';
+            const templateParams = {
+                name,
+                email,
+                message
+            };
+
+            emailjs.send(serviceId, templateId, templateParams, userId)
+                .then(response => console.log(response))
+                .then(error => console.log(error));
+
       setName('')
       setEmail('')
       setMessage('')
@@ -22,12 +36,6 @@ export default function Contact() {
       <Alert variant="secondary">'Please fill in all fields.'</Alert>
     }
   }
-
-  // form validation
-  const isValidEmail = email => {
-    const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return regex.test(String(email).toLowerCase());
-};
 
   return (
     <>
@@ -71,7 +79,8 @@ export default function Contact() {
                 value={message}
                 onChange={e => setMessage(e.target.value)}></textarea>
             <button className={classes.submit_btn} onClick={submit}>Send Message</button>
-            <span className={emailSent ? 'visible' : null}>Thank you for your message, we will be in touch in no time!</span>
+            <br />
+            <span className={emailSent ? 'Show' : null}>Thank you for your message, I will get back to you soon :) </span>
           </div>
         </div>
       </section>

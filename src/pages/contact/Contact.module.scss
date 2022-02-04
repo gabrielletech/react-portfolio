@@ -40,8 +40,8 @@ p {
 
 .contact_form {
     display: block;
-    margin: auto;
-    width: 100%;
+    margin: 2em;
+   // width: 100%;
     background: #000;
     border-radius: 20px;
     padding: 1em;
@@ -85,9 +85,18 @@ p {
     color: #6d6d6d;
     background: $princess-plush;
     cursor: pointer;
+    margin-bottom: 2em;
 
     @include desktop {
         display: block;
         margin: auto;
+        margin-bottom: 1.5em;
     }
+}
+
+span {
+    text-align: center;
+    color: $peace;
+    font-family: $main;
+    font-size: 12px;
 }
