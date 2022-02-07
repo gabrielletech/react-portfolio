@@ -173,6 +173,8 @@ section {
 }
 
 .cta_section {
+  margin-bottom: 2em;
+
     @include desktop {
         display: none;
     }
@@ -196,4 +198,10 @@ section {
   margin-top: 2em;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  margin-bottom: 2em;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 }

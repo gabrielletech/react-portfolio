@@ -49,7 +49,11 @@ export default function Home() {
 
       <div className={classes.cta_section}>
         <h3 className={classes.cta_heading}>Let me help you build an online presence</h3>
-        <button className={classes.cta_btn}>Talk to me</button>
+        <button className={classes.cta_btn}>
+          <a href="https://calendly.com/gabriellen/web-design-consultation">
+            Book A Consultation
+          </a>
+        </button>
       </div>
       </section>
       <Footer />
