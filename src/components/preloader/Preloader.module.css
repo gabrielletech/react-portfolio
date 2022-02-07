@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@400;500;600;700&display=swap");
+.preloader {
+  background: #fff url("../../images/brand-logo.png") no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+/*# sourceMappingURL=Preloader.module.css.map */

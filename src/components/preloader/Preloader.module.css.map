@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,gHAAI;AFGZ,AAAA,UAAU,CAAC;EACP,UAAU,EAAE,IAAI,CAAC,kCAAkC,CAAC,SAAS,CAAC,MAAM;EACpE,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,KAAK;EACf,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "Preloader.module.scss",
+        "../../styles/abstracts/_breakpoints.scss",
+        "../../styles/abstracts/_variables.scss"
+    ],
+    "names": [],
+    "file": "Preloader.module.css"
+}
