@@ -79,6 +79,39 @@
         transition: 0.3s ease all;
         font-family: $title;
     }
+
+    li .link_item:after,
+    li .link_item:before {
+        transition: all .5s;
+    }
+
+    li .link_item:hover {
+        font-weight: bold;
+    }
+}
+
+nav.header_nav ul li {
+    position: relative;
+}
+
+nav.header_nav ul li:after {
+    @include desktop {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+    transition: all .5s;
+    }
+}
+
+nav.header_nav ul li:hover:after {
+    width: 100%;
 }
 
 .menu_toggler {

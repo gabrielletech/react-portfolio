@@ -115,6 +115,41 @@
   font-family: "Julius Sans One", sans-serif;
 }
 
+.header_nav li .link_item:after,
+.header_nav li .link_item:before {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.header_nav li .link_item:hover {
+  font-weight: bold;
+}
+
+nav.header_nav ul li {
+  position: relative;
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  nav.header_nav ul li:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+}
+
+nav.header_nav ul li:hover:after {
+  width: 100%;
+}
+
 .menu_toggler {
   margin: -12px 8px 0px 0px;
   height: 50px;
