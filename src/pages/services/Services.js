@@ -2,10 +2,14 @@ import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import Hero from '../../images/services-hero.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 import classes from './Services.module.scss'
 
 export default function Services() {
+  AOS.init()
+
   return (
     <>
       <section>

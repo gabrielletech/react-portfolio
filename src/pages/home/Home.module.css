@@ -215,4 +215,33 @@ section {
   text-decoration: none;
   color: #fff;
 }
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.hero_title,
+.sub_title,
+.hero_btn {
+  -webkit-animation: 1s ease-out 0s 1 slideInLeft;
+          animation: 1s ease-out 0s 1 slideInLeft;
+}
 /*# sourceMappingURL=Home.module.css.map */

@@ -196,3 +196,41 @@ section {
     padding: 2em 0em;
     margin-bottom: 50px;
 }
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.services_img {
+   animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hero_right p {
+    animation: 1s ease-out 0s 1 slideInRight;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        
+    }
+}
