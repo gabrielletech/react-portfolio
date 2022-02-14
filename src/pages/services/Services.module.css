@@ -267,22 +267,4 @@ section {
   -webkit-animation: 1s ease-out 0s 1 slideInRight;
           animation: 1s ease-out 0s 1 slideInRight;
 }
-
-@-webkit-keyframes slideUp {
-  0% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-  100% {
-  }
-}
-
-@keyframes slideUp {
-  0% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-  }
-  100% {
-  }
-}
 /*# sourceMappingURL=Services.module.css.map */

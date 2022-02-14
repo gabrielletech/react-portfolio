@@ -224,13 +224,3 @@ section {
 .hero_right p {
     animation: 1s ease-out 0s 1 slideInRight;
 }
-
-@keyframes slideUp {
-    0% {
-        transform: translateY(-100%);
-    }
-
-    100% {
-        
-    }
-}
