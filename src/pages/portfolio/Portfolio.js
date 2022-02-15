@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
-import FlowersZim from '../../images/flowerszim-mockup.png'
-import Rico from '../../images/rico-mockup.png'
-import Notes from '../../images/notes-mockup.png'
-import Tbt from '../../images/the-bold-type-mockup.png'
-import Industria from '../../images/industria-mockup.png'
+//import FlowersZim from '../../images/flowerszim-mockup.png'
+//import Rico from '../../images/rico-mockup.png'
+//import Notes from '../../images/notes-mockup.png'
+//import Tbt from '../../images/the-bold-type-mockup.png'
+//import Industria from '../../images/industria-mockup.png'
+import ProjectCard from '../../components/projects/ProjectCard';
 
 import classes from './Portfolio.module.scss';
 //import { MdSpeakerNotesOff } from 'react-icons/md'
@@ -19,42 +20,7 @@ export default function Portfolio() {
           <h3 className={classes.portfolio_heading}>A Peak At What I Have Created</h3>
         </div>
 
-        <div className={classes.projects_container}>
-          <ul>
-            <li>
-              <div className={classes.project}>
-                <img src={FlowersZim} alt="FlowersZim Mockup" className={classes.project_img} />
-              </div>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <div className={classes.project}>
-                <img src={Rico} alt="FlowersZim Mockup" className={classes.project_img} />
-              </div>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <div className={classes.project}>
-                <img src={Notes} alt="FlowersZim Mockup" className={classes.project_img} />
-              </div>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <div className={classes.project}>
-                <img src={Tbt} alt="FlowersZim Mockup" className={classes.project_img} />
-              </div>  
-            </li>
-          </ul>
-          <ul>
-            <li className={classes.project}>
-                <img src={Industria} alt="FlowersZim Mockup" className={classes.project_img} />
-            </li>
-          </ul>
-        </div>
-
+        
         <div classname={classes.testimonials}>
         <div className={classes.quote}>
           <img src="https://img.icons8.com/ios-glyphs/30/000000/quote-right.png" alt="Quote - tesimonials"/>
