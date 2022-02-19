@@ -28,6 +28,10 @@ section {
   }
 }
 
+.contact_text span {
+  color: #000;
+}
+
 .location {
   display: inline-block;
 }

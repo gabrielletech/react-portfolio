@@ -22,6 +22,10 @@ section {
     @include desktop {
         padding: 5em;
     }
+
+    span {
+        color: #000;
+    }
 }
 
 .location {

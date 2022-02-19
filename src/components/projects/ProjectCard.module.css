@@ -34,7 +34,7 @@
   content: '';
   width: 80%;
   height: 220%;
-  background: rgba(235, 53, 131, 0.7);
+  background: #FFF7F5;
   top: -50%;
   left: -100%;
   z-index: 1;
@@ -65,11 +65,21 @@
   padding: 0 20px;
   position: absolute;
   top: -100%;
-  color: #fff;
+  color: #7e7e7e;
   left: 0;
   z-index: 2;
   -webkit-transition: 1.1s;
   transition: 1.1s;
+  cursor: pointer;
+}
+
+.project_text span {
+  color: #7e7e7e;
+}
+
+.project_text .right_icon {
+  padding-top: 0.55em;
+  font-size: 1rem;
 }
 
 .project:hover .project_text {
