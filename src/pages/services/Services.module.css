@@ -125,35 +125,13 @@ section {
   }
 }
 
-.dot {
-  height: 50px;
-  display: -ms-grid;
-  display: grid;
-  place-content: center;
-  margin: 0 auto;
-}
-
-.dot span {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.dot_i {
-  background: rgba(191, 163, 152, 0.46);
-}
-
-.dot_ii {
-  background: rgba(238, 187, 184, 0.46);
-}
-
-.dot_iii {
-  background: rgba(222, 163, 160, 0.46);
-}
-
-.dot_iv {
-  background: rgba(126, 126, 126, 0.46);
+.web,
+.seo,
+.ecom {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: auto;
 }
 
 .services_title {

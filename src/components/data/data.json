@@ -1,31 +1,31 @@
 [
     {
         "id": 1,
-        "image": "../../images/flowerszim-mockup.png",
+        "image": "images/flowerszim-mockup.png",
         "title": "FlowersZim"
     },
 
     {
         "id": 2,
-        "image": "../../images/rico-mockup.png",
+        "image": "images/rico-mockup.png",
         "title": "Rico Real Estate"
     },
     
     {
         "id": 3,
-        "image": "../../images/notes-mockup.png",
+        "image": "images/notes-mockup.png",
         "title": "Notes App"
     },
 
     {
         "id": 4,
-        "image": "../../images/the-bold-type-mockup.png",
+        "image": "images/the-bold-type-mockup.png",
         "title": "The Bold Type"
     },
 
     {
         "id": 5,
-        "image": "../../images/industria-mockup.png",
+        "image": "images/industria-mockup.png",
         "title": "Industria Collective Clothing"
     }
 

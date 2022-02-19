@@ -19,7 +19,7 @@ export default function Portfolio() {
         <div className={classes.portfolio_header}>
           <h3 className={classes.portfolio_heading}>A Peak At What I Have Created</h3>
         </div>
-
+<ProjectCard />
         
         <div classname={classes.testimonials}>
         <div className={classes.quote}>

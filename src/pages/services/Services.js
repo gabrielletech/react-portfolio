@@ -2,8 +2,11 @@ import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import Hero from '../../images/services-hero.jpg'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import Ecom from '../../images/e-commerce.svg'
+import Seo from '../../images/seo.svg'
+import Web from '../../images/web-development.svg'
 
 import classes from './Services.module.scss'
 
@@ -59,8 +62,8 @@ export default function Services() {
                 data-aos-easing="ease-in-out"
           >
             <li className={classes.box}>
-                <div className={classes.dot}>
-                  <span className={classes.dot_i}></span>
+                <div className={classes.icon}>
+                  <img src={Web} alt="Web Development Icon" className={classes.web} />
                 </div>
                 <p className={classes.services_title}>Web Development</p>
                 <p className={classes.services_desc}>Affordable website solutions that will showcase your brand in the most engaging way, 
@@ -71,8 +74,8 @@ export default function Services() {
                 data-aos-duration="2000"
                 data-aos-easing="ease-in-out">
               <li className={classes.box}>
-                <div className={classes.dot}>
-                    <span className={classes.dot_iii}></span>
+                <div className={classes.icon}>
+                    <img src={Ecom} alt="E-Commerce Icon" className={classes.ecom} />
                 </div>
                 <p className={classes.services_title}>E-Commerce Solutions</p>
                 <p className={classes.services_desc}>An e-commerce solution designed according to your brand and
@@ -83,8 +86,8 @@ export default function Services() {
                 data-aos-duration="3000"
                 data-aos-easing="ease-in-out">
               <li className={classes.box}>
-                <div className={classes.dot}>
-                    <span className={classes.dot_iii}></span>
+                <div className={classes.icon}>
+                    <img src={Seo} alt="SEO Icon" className={classes.seo} />
                 </div>
                 <p className={classes.services_title}>SEO</p>
                 <p className={classes.services_desc}>Optimize your site to be highly ranked on Google, giving your brand the credibility it 
