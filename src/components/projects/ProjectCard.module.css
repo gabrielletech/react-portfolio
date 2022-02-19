@@ -24,6 +24,32 @@
   }
 }
 
+.project {
+  position: relative;
+  overflow: hidden;
+}
+
+.project:before {
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 220%;
+  background: rgba(235, 53, 131, 0.7);
+  top: -50%;
+  left: -100%;
+  z-index: 1;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  -webkit-transform-origin: center top 0;
+          transform-origin: center top 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.project:hover:before {
+  left: 10%;
+}
+
 .project_img {
   width: 400px;
   height: 400px;
@@ -31,5 +57,22 @@
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.project_text {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  padding: 0 20px;
+  position: absolute;
+  top: -100%;
+  color: #fff;
+  left: 0;
+  z-index: 2;
+  -webkit-transition: 1.1s;
+  transition: 1.1s;
+}
+
+.project:hover .project_text {
+  top: 80px;
 }
 /*# sourceMappingURL=ProjectCard.module.css.map */
