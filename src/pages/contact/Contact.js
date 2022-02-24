@@ -30,7 +30,9 @@ export default function Contact() {
       }, (error) => {
         console.log(error.text)
       });
+
   };
+
 
   return (
     <>
@@ -58,7 +60,7 @@ export default function Contact() {
                   className={classes.input_name} 
                   name="name"
                   value={name}
-                  onChange={(e) => e.target.value}
+                  onChange={(e) => setName(e.target.value)}
               />
               <input 
                   type="email" 
@@ -66,14 +68,14 @@ export default function Contact() {
                   className={classes.input_email}
                   name="email"
                   value={email}
-                  onChange={(e) => e.target.value}
+                  onChange={(e) => setEmail(e.target.value)}
               />
               <textarea 
                   placeholder="Your message" 
                   className={classes.input_message}
                   name="message"
                   value={message}
-                  onChange={(e) => e.target.value}
+                  onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
               <input type="submit" value="Send Message" onClick={sendEmail} className={classes.submit_btn} />
               <br />

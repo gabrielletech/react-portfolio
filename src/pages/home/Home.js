@@ -22,7 +22,7 @@ export default function Home() {
               <h1 className={classes.hero_title}>Gabrielle Ndoro</h1>
               <h4 className={classes.sub_title}>Freelance Web Designer & Front-End Developer</h4>
               <button className={classes.hero_btn}>
-              <a href="https://calendly.com/gabriellen/web-design-consultation" className={classes.link}>
+              <a href="https://calendly.com/gabriellendoro" target="_blank" rel="noreferrer"className={classes.link}>
                    Book a Consultation
               </a>
              </button>
