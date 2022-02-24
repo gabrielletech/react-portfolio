@@ -2,6 +2,9 @@ import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import HomeImg from '../../images/home-mockup.png'
+import Ecom from '../../images/e-commerce.svg'
+import Seo from '../../images/seo.svg'
+import Web from '../../images/web-development.svg'
 
 import classes from './Home.module.scss'
 
@@ -34,7 +37,10 @@ export default function Home() {
 
         <div className={classes.services}>
           <div className={classes.service}>
-            <p> <span className={classes.dot_i}></span><h3 className={classes.service_heading}>Web Development</h3></p>
+            <p> 
+              <img src={Web} className={classes.web} alt="web-icon" />
+              <h3 className={classes.service_heading}>Web Development</h3>
+            </p>
           </div>
            <div className={classes.service}>
             <p><span className={classes.dot_ii}></span><h3 className={classes.service_heading}>Custom Web Development</h3></p>

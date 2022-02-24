@@ -25,10 +25,10 @@ export default function Portfolio() {
         <div className={classes.quote}>
           <img src="https://img.icons8.com/ios-glyphs/30/000000/quote-right.png" alt="Quote - tesimonials"/>
         </div>
-            <p className={classes.testimonial_text}>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  
-            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-            Aldus PageMaker including versions of Lorem Ipsum.”
-            <p className={classes.testimonial_name}>No Name</p>
+            <p className={classes.testimonial_text}>“Gabrielle has been an absolute pleasure to work with on our www.habesharesort.com site! She was responsive
+            and intuitive on the build, has provided regular reports and feedback since and ensured the visibility of our site. I couldn't recommend her enough.
+            Thank you Gabby!”
+            <p className={classes.testimonial_name}>Letty Chiwara</p>
             </p>
       </div>
       </section>

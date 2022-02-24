@@ -1,32 +1,34 @@
 [
     {
         "id": 1,
-        "image": "images/flowerszim-mockup.png",
-        "title": "FlowersZim"
+        "image": "images/The Bold Type.png",
+        "title": "The Bold Type",
+        "techStack": "React, TypeScript, Sass",
+        "url": "https://theboldtype.netlify.app/"
     },
 
     {
         "id": 2,
-        "image": "images/rico-mockup.png",
-        "title": "Rico Real Estate"
+        "image": "images/Rico Real Estate.png",
+        "title": "Rico Real Estate",
+        "techStack": "HTML, CSS, JavaScript",
+         "url": "https://rico-real-estate.netlify.app/"
     },
     
     {
         "id": 3,
-        "image": "images/notes-mockup.png",
-        "title": "Notes App"
+        "image": "images/Notes.png",
+        "title": "Notes App",
+        "techStack": "React, Scss",
+         "url": "https://simple-notes-application.netlify.app/"
     },
 
     {
         "id": 4,
-        "image": "images/the-bold-type-mockup.png",
-        "title": "The Bold Type"
-    },
-
-    {
-        "id": 5,
-        "image": "images/industria-mockup.png",
-        "title": "Industria Collective Clothing"
+        "image": "images/Industria.png",
+        "title": "Industria",
+        "techStack": "HTML, CSS, JavaScript",
+         "url": "https://industria.netlify.app/"
     }
 
 ]

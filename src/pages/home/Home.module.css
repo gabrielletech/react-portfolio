@@ -147,8 +147,7 @@ section {
 }
 
 .service_heading {
-  display: inline-block;
-  margin-left: 2px;
+  text-align: center;
   font-weight: normal;
 }
 
@@ -163,20 +162,11 @@ section {
   display: inline-block;
 }
 
-.dot_i {
-  background: rgba(191, 163, 152, 0.46);
-}
-
-.dot_ii {
-  background: rgba(238, 187, 184, 0.46);
-}
-
-.dot_iii {
-  background: rgba(222, 163, 160, 0.46);
-}
-
-.dot_iv {
-  background: rgba(126, 126, 126, 0.46);
+.web {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: auto;
 }
 
 .cta_section {
