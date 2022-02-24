@@ -5,6 +5,7 @@ import HomeImg from '../../images/home-mockup.png'
 import Ecom from '../../images/e-commerce.svg'
 import Seo from '../../images/seo.svg'
 import Web from '../../images/web-development.svg'
+import Custom from '../../images/customdev.svg'
 
 import classes from './Home.module.scss'
 
@@ -38,18 +39,24 @@ export default function Home() {
         <div className={classes.services}>
           <div className={classes.service}>
             <p> 
-              <img src={Web} className={classes.web} alt="web-icon" />
+              <img src={Web} className={classes.icon} alt="web-icon" />
               <h3 className={classes.service_heading}>Web Development</h3>
             </p>
           </div>
            <div className={classes.service}>
-            <p><span className={classes.dot_ii}></span><h3 className={classes.service_heading}>Custom Web Development</h3></p>
+            <p>
+              <img src={Custom} className={classes.icon} alt="web-icon" />
+              <h3 className={classes.service_heading}>Custom Web Development</h3></p>
           </div>
            <div className={classes.service}>
-            <p><span className={classes.dot_iii}></span><h3 className={classes.service_heading}>E-Commerce Solutions</h3></p>
+            <p>
+              <img src={Ecom} className={classes.icon} alt="web-icon" />
+              <h3 className={classes.service_heading}>E-Commerce Solutions</h3></p>
           </div>
            <div className={classes.service}>
-            <p><span className={classes.dot_iv}></span><h3 className={classes.service_heading}>SEO</h3></p>
+            <p>
+            <img src={Seo} className={classes.icon} alt="web=icon" />
+            <h3 className={classes.service_heading}>SEO</h3></p>
           </div>
       </div>
 

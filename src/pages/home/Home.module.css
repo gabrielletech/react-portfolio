@@ -119,6 +119,7 @@ section {
 
 .services {
   padding: 2em 3.5em;
+  height: 100%;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -155,14 +156,7 @@ section {
   font-family: "Julius Sans One", sans-serif;
 }
 
-.service p span {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.web {
+.icon {
   height: 50px;
   width: 50px;
   display: block;

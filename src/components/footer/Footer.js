@@ -18,11 +18,9 @@ export default function Footer() {
                 <a href='https://github.com/gabrielletech'>
                     <img src={Github} className={classes.footer_icon} alt="Github Icon" />
                 </a>
-                
                 <a href='https://twitter.com/tinytechgirl'>
                     <img src={Twitter} className={classes.footer_icon} alt="Twitter Icon" />
                 </a>
-                
             </Container>
         </footer>
       </>
