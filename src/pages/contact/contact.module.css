@@ -111,4 +111,9 @@ span {
   font-family: "Raleway", sans-serif;
   font-size: 12px;
 }
+
+.error_msg {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
 /*# sourceMappingURL=Contact.module.css.map */

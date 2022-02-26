@@ -102,7 +102,7 @@ export default function Services() {
             Let’s grab a virtual coffee and discuss your next digital product
           </h3>
           <button className={classes.services_cta_btn}>
-            <a href="https://calendly.com/gabriellen/web-design-consultation">
+            <a href="https://calendly.com/gabriellendoro" target="_blank" rel="noreferrer">
               Book A Consultation
             </a>
           </button>
