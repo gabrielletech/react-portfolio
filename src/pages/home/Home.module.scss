@@ -10,8 +10,8 @@ section {
   height: 40vh;
   background: $princess-plush;
 
-  @include desktop {
-      
+  @include tablet {
+      height: 40vh;
   }
 
 }
@@ -26,6 +26,11 @@ section {
   padding: 3em 2em;
   background: $princess-plush;
   margin-top: 20px;
+
+  @include tablet {
+    padding: 3em 10em;
+    text-align: center;
+  }
 
   @include desktop {
     height: 60%;
@@ -120,7 +125,7 @@ section {
   height: 100%;
 
   @include tablet {
-    display: none;
+    display: block;
   }
 
   @include desktop {
@@ -134,7 +139,6 @@ section {
 
 .service:hover {
   background: $princess-plush;
-  cursor: pointer;
   padding: 10px;
   border-radius: 12px;
   transition: 0.3s ease-out;

@@ -9,6 +9,12 @@ section {
   background: #FFF7F5;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero {
+    height: 40vh;
+  }
+}
+
 @media (min-width: 1024px) and (max-width: 1440px) {
   .nav {
     width: 100%;
@@ -19,6 +25,13 @@ section {
   padding: 3em 2em;
   background: #FFF7F5;
   margin-top: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero_text {
+    padding: 3em 10em;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
@@ -124,7 +137,7 @@ section {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .services {
-    display: none;
+    display: block;
   }
 }
 
@@ -140,7 +153,6 @@ section {
 
 .service:hover {
   background: #FFF7F5;
-  cursor: pointer;
   padding: 10px;
   border-radius: 12px;
   -webkit-transition: 0.3s ease-out;
