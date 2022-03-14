@@ -45,10 +45,9 @@ export default function Services() {
             <img src={Hero} alt="Services Hero Img" className={classes.services_img} />
           </div>
           <div className={classes.hero_right}>
-            <p>Nowadays it sure feels like the internet is on steroids with everything 
-            going digital and business processes evolving. That’s your sign to go digital, 
-            no matter what stage your business is in, you deserve an online presence! Once 
-            your business is online, the possibilities are endless...</p>
+            <p>One of the best advantages you can give your business today is a responsive, accessible online presence, Once
+            your business is online, the possibilities are endless.</p>
+            <p>Navigating the world of web design and development can be overwhelming, and I'm here to make the process easy for you.</p>
           </div>
         </div>
 

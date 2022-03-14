@@ -169,13 +169,14 @@ section {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .services_cta {
-    height: 35vh;
+    height: 30vh;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
   .services_cta {
     padding: 6em;
+    height: 50vh;
   }
 }
 
@@ -211,6 +212,12 @@ section {
   text-align: center;
   padding: 2em 0em;
   margin-bottom: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .services_free {
+    margin-bottom: 20px;
+  }
 }
 
 @-webkit-keyframes slideInLeft {

@@ -30,8 +30,7 @@ export default function Home() {
             <div className={classes.hero_side}>
               <img src={HomeImg} alt="Responsive Web Design" className={classes.hero_img} />
               <div className={classes.side_text}>
-                I help Small Businesses and Entrepreneurs build an online presence - giving you
-                 a website that represents your brand, and that your users will LOVE!
+                I use my expertise in Web Development to build responsive, functional websites and interfaces that represent your brand, and that your users will LOVE!
               </div>
             </div>
         </div>
