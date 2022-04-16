@@ -18,6 +18,19 @@ section {
   }
 }
 
+@media (min-width: 1440px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+  }
+}
+
 .contact_text {
   padding: 2em;
 }
@@ -72,6 +85,14 @@ p {
   }
 }
 
+@media (min-width: 1440px) {
+  .contact_form {
+    width: 500px;
+    margin: 5em;
+    margin-bottom: 0em;
+  }
+}
+
 .input_name {
   width: 100%;
   padding: 1em;
@@ -107,6 +128,14 @@ p {
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
+  .submit_btn {
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5em;
+  }
+}
+
+@media (min-width: 1440px) {
   .submit_btn {
     display: block;
     margin: auto;

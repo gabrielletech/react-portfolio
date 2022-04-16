@@ -28,16 +28,18 @@
         flex-direction: column;
         grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(2, auto);
-
-    ul {
-        
     }
+
+    @include large-desktop {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
     }
 
     ul li {
         list-style: none;
         margin-bottom: 2em;
-
     }
 }
 
@@ -73,6 +75,10 @@
     border-top-right-radius: 10%;
 
     @include desktop {
+        padding: 6em;
+    }
+
+    @include large-desktop {
         padding: 6em;
     }
 }

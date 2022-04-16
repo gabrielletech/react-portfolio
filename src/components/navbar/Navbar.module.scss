@@ -122,6 +122,20 @@ nav.header_nav ul li:after {
     height: 1px;
     transition: all .5s;
     }
+
+    @include large-desktop {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: #aaa;
+        height: 1px;
+        transition: all .5s;
+    }
 }
 
 nav.header_nav ul li:hover:after {

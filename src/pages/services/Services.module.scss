@@ -12,12 +12,20 @@ section {
   @include tablet {
     background: $princess-plush;
   }
+
+  @include large-desktop {
+    background: $peace;
+  }
 }
 
 .services_hero {
   display: none;
 
   @include desktop {
+    display: block;
+  }
+
+  @include large-desktop {
     display: block;
   }
 }
@@ -36,12 +44,39 @@ section {
     overflow-x: hidden;
     margin-top: 7em;
   }
+
+  @include large-desktop {
+    display: block;
+    width: 50%;
+    height: auto;
+    background: $peace;
+    left: 0;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 7em;
+  }
 }
 
 .hero_right {
   display: none;
 
   @include desktop {
+    display: block;
+    width: 50%;
+    height: auto;
+    background: $peace;
+    right: 0;
+    float: right;
+    top: 0;
+    overflow-x: hidden;
+    text-align: justify;
+    font-family: $main;
+    margin-top: -18em;
+    padding: 5em;
+  }
+
+  @include large-desktop {
     display: block;
     width: 50%;
     height: auto;
@@ -89,10 +124,26 @@ section {
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
   }
+
+  @include large-desktop {
+    height: 70vh;
+    margin-top: 5em;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
 }
 
 .services_container ul {
   @include desktop {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+    padding: 1em;
+  }
+
+  @include large-desktop {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
@@ -117,6 +168,11 @@ section {
   }
 
   @include desktop {
+    margin-bottom: 2em;
+    padding: 2.5em;
+  }
+
+  @include large-desktop {
     margin-bottom: 2em;
     padding: 2.5em;
   }
@@ -153,6 +209,11 @@ section {
   }
 
   @include desktop {
+    padding: 6em;
+    height: 50vh;
+  }
+
+  @include large-desktop {
     padding: 6em;
     height: 50vh;
   }
