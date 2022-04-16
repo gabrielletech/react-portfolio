@@ -4,6 +4,11 @@
 section {
   height: 100vh;
   width: 100%;
+
+  @include large-desktop {
+    height: 100vh;
+    width: 100%;
+  }
 }
 
 .hero {
@@ -20,6 +25,10 @@ section {
     @include desktop {
         width: 100%;
     }
+
+    @include large-desktop {
+      width: 100%;
+    }
 }
 
 .hero_text {
@@ -33,6 +42,20 @@ section {
   }
 
   @include desktop {
+    height: 60%;
+    width: 50%;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 10em;
+    padding: 10em 8em;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+  }
+
+  @include large-desktop {
     height: 60%;
     width: 50%;
     position: fixed;
@@ -71,6 +94,19 @@ section {
       overflow-x: hidden;
       margin-top: 9em;
   }
+
+  @include large-desktop {
+    display: block;
+    height: 70%;
+    width: 50%;
+    background: $peace;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 9em;
+  }
 }
 
 
@@ -84,6 +120,14 @@ section {
         width: 400px;
         display: block;
         margin: auto;
+    }
+
+    @include large-desktop {
+      display: block;
+      height: 400px;
+      width: 400px;
+      display: block;
+      margin: auto;
     }
 }
 
@@ -118,6 +162,12 @@ section {
         font-family: $main;
         padding: 0em 4em;
     }
+
+    @include large-desktop {
+      display: block;
+      font-family: $main;
+      padding: 0em 4em;
+    }
 }
 
 .services {
@@ -129,6 +179,10 @@ section {
   }
 
   @include desktop {
+    display: none;
+  }
+
+  @include large-desktop {
     display: none;
   }
 }

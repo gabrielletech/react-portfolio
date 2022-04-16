@@ -4,6 +4,13 @@ section {
   width: 100%;
 }
 
+@media (min-width: 1440px) {
+  section {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
 .hero {
   height: 40vh;
   background: #FFF7F5;
@@ -16,6 +23,12 @@ section {
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
+  .nav {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
   .nav {
     width: 100%;
   }
@@ -35,6 +48,22 @@ section {
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
+  .hero_text {
+    height: 60%;
+    width: 50%;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 10em;
+    padding: 10em 8em;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+  }
+}
+
+@media (min-width: 1440px) {
   .hero_text {
     height: 60%;
     width: 50%;
@@ -78,11 +107,36 @@ section {
   }
 }
 
+@media (min-width: 1440px) {
+  .hero_side {
+    display: block;
+    height: 70%;
+    width: 50%;
+    background: #fff;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top: 9em;
+  }
+}
+
 .hero_img {
   display: none;
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
+  .hero_img {
+    display: block;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
   .hero_img {
     display: block;
     height: 400px;
@@ -130,6 +184,14 @@ section {
   }
 }
 
+@media (min-width: 1440px) {
+  .side_text {
+    display: block;
+    font-family: "Raleway", sans-serif;
+    padding: 0em 4em;
+  }
+}
+
 .services {
   padding: 2em 3.5em;
   height: 100%;
@@ -142,6 +204,12 @@ section {
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
+  .services {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
   .services {
     display: none;
   }

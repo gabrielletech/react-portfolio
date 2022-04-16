@@ -13,6 +13,12 @@
         left: 0;
         bottom: 0;
     }
+
+    @include large-desktop {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
 }
 
 .footer_container {
@@ -27,6 +33,10 @@
     opacity: 46%;
 
     @include desktop {
+        margin: 2em 6em;
+    }
+
+    @include large-desktop {
         margin: 2em 6em;
     }
 }
