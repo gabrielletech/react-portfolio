@@ -58,7 +58,7 @@ export default function Contact() {
                   placeholder="Your Name" 
                   className={classes.input_name} 
                   name="name"
-                  
+                  required
               />
               
               <input 
@@ -66,14 +66,14 @@ export default function Contact() {
                   placeholder="Your email address" 
                   className={classes.input_email}
                   name="email"
-                  
+                  required
               />
               
               <textarea 
                   placeholder="Your message" 
                   className={classes.input_message}
                   name="message"
-                  
+                  required
                   ></textarea>
               
               <input type="submit" value="Send Message" className={classes.submit_btn} />
