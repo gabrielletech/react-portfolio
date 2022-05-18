@@ -21,7 +21,7 @@
   margin-bottom: 2em;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .projects_container {
     display: -ms-grid;
     display: grid;
@@ -36,7 +36,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .projects_container {
     display: -ms-grid;
     display: grid;
@@ -89,13 +89,13 @@
   border-top-right-radius: 10%;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .testimonial_text {
     padding: 6em;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .testimonial_text {
     padding: 6em;
   }

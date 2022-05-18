@@ -66,7 +66,7 @@
   transition: 0.3s ease transform;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .header_nav {
     -webkit-transform: none;
             transform: none;
@@ -81,7 +81,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .header_nav {
     -webkit-transform: none;
             transform: none;
@@ -108,7 +108,7 @@
   margin-bottom: 32px;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .header_nav ul {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -121,7 +121,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .header_nav ul {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -157,7 +157,7 @@ nav.header_nav ul li {
   position: relative;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   nav.header_nav ul li:after {
     position: absolute;
     bottom: 0;
@@ -174,7 +174,7 @@ nav.header_nav ul li {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   nav.header_nav ul li:after {
     position: absolute;
     bottom: 0;
@@ -209,13 +209,13 @@ nav.header_nav ul li:hover:after {
   cursor: pointer;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .menu_toggler {
     display: none;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .menu_toggler {
     display: none;
   }
@@ -240,13 +240,13 @@ nav.header_nav ul li:hover:after {
   cursor: pointer;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .close_menu {
     display: none;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .close_menu {
     display: none;
   }

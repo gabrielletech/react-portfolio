@@ -10,7 +10,7 @@
   margin-bottom: 2em;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .projects_container {
     display: -ms-grid;
     display: grid;

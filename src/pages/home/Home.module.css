@@ -4,7 +4,7 @@ section {
   width: 100%;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   section {
     height: 100vh;
     width: 100%;
@@ -22,13 +22,13 @@ section {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .nav {
     width: 100%;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .nav {
     width: 100%;
   }
@@ -47,7 +47,7 @@ section {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .hero_text {
     height: 60%;
     width: 50%;
@@ -63,7 +63,7 @@ section {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .hero_text {
     height: 60%;
     width: 50%;
@@ -92,7 +92,7 @@ section {
   display: none;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .hero_side {
     display: block;
     height: 70%;
@@ -107,7 +107,7 @@ section {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .hero_side {
     display: block;
     height: 70%;
@@ -126,7 +126,7 @@ section {
   display: none;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .hero_img {
     display: block;
     height: 400px;
@@ -136,7 +136,7 @@ section {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .hero_img {
     display: block;
     height: 400px;
@@ -150,7 +150,7 @@ section {
   display: none;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .hero_btn {
     display: block;
     color: #fff;
@@ -166,7 +166,7 @@ section {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .hero_btn {
     display: block;
     color: #fff;
@@ -192,7 +192,7 @@ section {
   display: none;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .side_text {
     display: block;
     font-family: "Raleway", sans-serif;
@@ -200,7 +200,7 @@ section {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .side_text {
     display: block;
     font-family: "Raleway", sans-serif;
@@ -219,13 +219,13 @@ section {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .services {
     display: none;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .services {
     display: none;
   }
@@ -263,7 +263,7 @@ section {
   margin-bottom: 2em;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .cta_section {
     display: none;
   }

@@ -7,7 +7,7 @@
   border-top-right-radius: 20px;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .footer {
     position: fixed;
     left: 0;
@@ -15,7 +15,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .footer {
     position: fixed;
     left: 0;
@@ -39,13 +39,13 @@
   opacity: 46%;
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
   .footer_icon {
     margin: 2em 6em;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .footer_icon {
     margin: 2em 6em;
   }
