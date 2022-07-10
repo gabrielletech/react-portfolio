@@ -8,7 +8,7 @@
     },
 
     {
-        "id": 1,
+        "id": 2,
         "image": "images/The Bold Type.png",
         "title": "The Bold Type",
         "techStack": "React, TypeScript, Sass",
@@ -16,15 +16,15 @@
     },
 
     {
-        "id": 2,
-        "image": "images/Rico Real Estate.png",
-        "title": "Rico Real Estate",
-        "techStack": "HTML, CSS, JavaScript",
-         "url": "https://rico-real-estate.netlify.app/"
+        "id": 3,
+        "image": "images/greyEtch.png",
+        "title": "Grey Etch Interiors",
+        "techStack": "Webflow",
+         "url": "https://greyetchinteriors.netlify.app"
     },
     
     {
-        "id": 3,
+        "id": 4,
         "image": "images/Notes.png",
         "title": "Notes App",
         "techStack": "React, Scss",
@@ -32,11 +32,21 @@
     },
 
     {
-        "id": 4,
+        "id": 5,
         "image": "images/Industria.png",
         "title": "Industria",
         "techStack": "HTML, CSS, JavaScript",
          "url": "https://industria.netlify.app/"
+    },
+
+    {
+        "id": 6,
+        "image": "images/Rico Real Estate.png",
+        "title": "Rico Real Estate",
+        "techStack": "HTML, CSS, JavaScript",
+        "url": "https://rico-real-estate.netlify.app/"
     }
+
+
 
 ]
