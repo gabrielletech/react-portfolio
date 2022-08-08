@@ -50,11 +50,23 @@
 }
 
 .project_img {
-    width: 400px;
+    width: 320px;
     height: 400px;
     border-radius: 20px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     cursor: pointer;
+
+    @include tablet {
+
+    }
+
+    @include desktop {
+        width: 400px;
+    }
+
+    @include large-desktop {
+        width: 400px;
+    }
 }
 
 .project_text {

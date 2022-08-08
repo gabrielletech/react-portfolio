@@ -184,7 +184,7 @@ section {
 }
 
 .services {
-  padding: 2em 3.5em;
+  padding: 5em 3.5em;
   height: 100%;
 
   @include tablet {
@@ -232,6 +232,8 @@ section {
 
 .cta_section {
   margin-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 
     @include desktop {
         display: none;
