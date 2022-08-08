@@ -6,6 +6,7 @@ import Ecom from '../../images/e-commerce.svg'
 import Seo from '../../images/seo.svg'
 import Web from '../../images/web-development.svg'
 import Custom from '../../images/customdev.svg'
+import { Link } from 'react-router-dom'
 
 import classes from './Home.module.scss'
 
@@ -39,23 +40,33 @@ export default function Home() {
           <div className={classes.service}>
             <p> 
               <img src={Web} className={classes.icon} alt="web-icon" />
-              <h3 className={classes.service_heading}>Web Development</h3>
+              <h3 className={classes.service_heading}>
+                <Link to='/services' className={classes.service_heading_link}>Web Development</Link></h3>
             </p>
           </div>
            <div className={classes.service}>
             <p>
               <img src={Custom} className={classes.icon} alt="web-icon" />
-              <h3 className={classes.service_heading}>Custom Web Development</h3></p>
+              <h3 className={classes.service_heading}>
+                <Link to='/services' className={classes.service_heading_link}>Custom Web Development</Link>
+              </h3>
+            </p>
           </div>
            <div className={classes.service}>
             <p>
               <img src={Ecom} className={classes.icon} alt="web-icon" />
-              <h3 className={classes.service_heading}>E-Commerce Solutions</h3></p>
+              <h3 className={classes.service_heading}>
+                <Link to='/services' className={classes.service_heading_link}>E-Commerce Solutions</Link>
+              </h3>
+            </p>
           </div>
            <div className={classes.service}>
             <p>
             <img src={Seo} className={classes.icon} alt="web=icon" />
-            <h3 className={classes.service_heading}>SEO</h3></p>
+              <h3 className={classes.service_heading}>
+                <Link to='/services' className={classes.service_heading_link}>SEO</Link>
+              </h3>
+            </p>
           </div>
       </div>
 

@@ -212,9 +212,13 @@ section {
 }
 
 .service_heading {
-  
   text-align: center;
   font-weight: normal;
+}
+
+.service_heading_link {
+  text-decoration: none;
+  color: #000;
 }
 
 .service p {

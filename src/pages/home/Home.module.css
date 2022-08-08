@@ -248,6 +248,11 @@ section {
   font-weight: normal;
 }
 
+.service_heading_link {
+  text-decoration: none;
+  color: #000;
+}
+
 .service p {
   font-family: "Julius Sans One", sans-serif;
 }

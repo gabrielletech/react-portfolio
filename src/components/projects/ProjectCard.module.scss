@@ -57,7 +57,7 @@
     cursor: pointer;
 
     @include tablet {
-
+        width: 380px;
     }
 
     @include desktop {

@@ -40,11 +40,6 @@ export default function Contact() {
         <div className={classes.container}>
           <div className={classes.contact_text}>
             <p>
-              <img src="https://img.icons8.com/material-sharp/24/000000/marker.png" alt="Location" className={classes.location}/>
-              <span>Centurion, Gauteng, South Africa</span>
-            </p>
-            
-            <p>
               For general questions, inquiries, or technical issues with this website, drop me an email here
               <a href='mailto:gabriellendoro.fn@gmail.com' className={classes.email_address}> gabriellendoro.fn@gmail.com </a>
             </p>

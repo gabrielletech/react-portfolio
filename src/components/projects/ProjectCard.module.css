@@ -64,6 +64,12 @@
   cursor: pointer;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .project_img {
+    width: 380px;
+  }
+}
+
 @media (min-width: 1024px) and (max-width: 1600px) {
   .project_img {
     width: 400px;
