@@ -9,30 +9,14 @@
 
     {
         "id": 2,
-        "image": "images/The Bold Type.png",
-        "title": "The Bold Type",
-        "techStack": "React, TypeScript, Sass",
-        "url": "https://theboldtype.netlify.app/"
-    },
-
-    {
-        "id": 3,
         "image": "images/greyEtch.png",
         "title": "Grey Etch Interiors",
         "techStack": "Webflow",
          "url": "https://greyetchinteriors.netlify.app"
     },
-    
-    {
-        "id": 4,
-        "image": "images/Notes.png",
-        "title": "Notes App",
-        "techStack": "React, Scss",
-         "url": "https://simple-notes-application.netlify.app/"
-    },
 
     {
-        "id": 5,
+        "id": 3,
         "image": "images/tdp.png",
         "title": "TDP Portfolio",
         "techStack": "Webflow",
@@ -40,13 +24,36 @@
     },
 
     {
-        "id": 6,
+        "id": 4,
         "image": "images/Rico Real Estate.png",
         "title": "Rico Real Estate",
         "techStack": "HTML, CSS, JavaScript",
         "url": "https://rico-real-estate.netlify.app/"
+    },
+
+    {
+        "id": 5,
+        "image": "images/Industria.png",
+        "title": "Industria Demo",
+        "techStack": "Webflow",
+        "url": "https://industria-8dd8ed.webflow.io/"
+    },
+
+
+    {
+        "id": 6,
+        "image": "images/The Bold Type.png",
+        "title": "The Bold Type",
+        "techStack": "React, TypeScript, Sass",
+        "url": "https://theboldtype.netlify.app/"
+    },
+    
+    {
+        "id": 7,
+        "image": "images/Notes.png",
+        "title": "Notes App",
+        "techStack": "React, Scss",
+         "url": "https://simple-notes-application.netlify.app/"
     }
-
-
-
+    
 ]
