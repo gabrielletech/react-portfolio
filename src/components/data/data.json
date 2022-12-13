@@ -33,6 +33,14 @@
 
     {
         "id": 5,
+        "image": "images/Ambient Care.png",
+        "title": "Ambient Care",
+        "techStack": "Wix",
+        "url": "https://www.ambientcare.ca/"
+    },
+
+    {
+        "id": 6,
         "image": "images/Industria.png",
         "title": "Industria Demo",
         "techStack": "Webflow",
@@ -41,7 +49,7 @@
 
 
     {
-        "id": 6,
+        "id": 7,
         "image": "images/The Bold Type.png",
         "title": "The Bold Type",
         "techStack": "React, TypeScript, Sass",
@@ -49,7 +57,7 @@
     },
     
     {
-        "id": 7,
+        "id": 8,
         "image": "images/Notes.png",
         "title": "Notes App",
         "techStack": "React, Scss",
