@@ -1,14 +1,7 @@
 [
-    {
-        "id": 1,
-        "image": "images/Habesha.png",
-        "title": "Habesha ",
-        "techStack": "Webflow",
-        "url": "https://habesharesort.com"
-    },
 
     {
-        "id": 2,
+        "id": 1,
         "image": "images/greyEtch.png",
         "title": "Grey Etch Interiors",
         "techStack": "Webflow",
@@ -16,7 +9,7 @@
     },
 
     {
-        "id": 3,
+        "id": 2,
         "image": "images/tdp.png",
         "title": "TDP Portfolio",
         "techStack": "Webflow",
@@ -24,7 +17,7 @@
     },
 
     {
-        "id": 4,
+        "id": 3,
         "image": "images/Rico Real Estate.png",
         "title": "Rico Real Estate",
         "techStack": "HTML, CSS, JavaScript",
@@ -32,7 +25,7 @@
     },
 
     {
-        "id": 5,
+        "id": 4,
         "image": "images/Ambient Care.png",
         "title": "Ambient Care",
         "techStack": "Wix",
@@ -40,7 +33,7 @@
     },
 
     {
-        "id": 6,
+        "id": 5,
         "image": "images/Industria.png",
         "title": "Industria Demo",
         "techStack": "Webflow",
@@ -49,7 +42,7 @@
 
 
     {
-        "id": 7,
+        "id": 6,
         "image": "images/The Bold Type.png",
         "title": "The Bold Type",
         "techStack": "React, TypeScript, Sass",
@@ -57,7 +50,7 @@
     },
     
     {
-        "id": 8,
+        "id": 7,
         "image": "images/Notes.png",
         "title": "Notes App",
         "techStack": "React, Scss",
